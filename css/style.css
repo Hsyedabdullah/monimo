@@ -1,0 +1,265 @@
+/* coomon css start */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+@font-face {
+    font-family:Raleway-Bold;
+    src: url(../font/raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family:Raleway-Light;
+    src: url(../font/raleway/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family:Raleway-Regular;
+    src: url(../font/raleway/Raleway-Regular.ttf);
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+    width: 1200px;
+    margin: 0 auto;
+}
+/* common css end */
+/* header start */
+header {
+    margin: 25px 0 25px 0px;
+   
+    
+}
+.container {
+    width: 90%;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    width: 15%;
+    /* border: 1px solid red; */
+    float: left;
+    padding: 16px;
+}
+.logo a {
+    display: block;
+}
+.logo a img {
+    width: 100%;
+}
+.menu {
+    width: 60%;
+    /* border: 1px solid red; */
+    float: right;
+}
+.menu ul{
+    margin: 0;
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+
+    text-decoration: none;
+    color: #626262;
+    display: inline-block;
+    padding: 25px 40px;
+    text-transform: uppercase;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+/* header end */
+/* benner start */
+.benner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.benner img{
+    width: 100%;
+
+}
+/* benner end */
+/* about start */
+.about {
+    margin: 50px 0 0 50px;
+}
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+}
+.container2 h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.container2 h2 {
+    font-family: 'Playfair Display', serif;
+}
+.container2 p {
+    
+}
+.container2 h6 {
+
+}
+.container2 h5 a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #0f2656;
+    text-transform: uppercase;
+
+}
+/* about end */
+/* feture start */
+.feture {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container2 {
+
+}
+.f_1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.s_item {
+    width: 46%;
+    /* padding: 20px 20.6px 30px;        */
+    float: left;
+    margin-right: 20px;    
+    /* border: 1px rgb(236, 67, 0); */
+    /* background-color: #0f2656; */
+}
+.s_img {
+
+}
+.s_img img {
+    width: 100%;
+}
+.s_item h5 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.s_item h2 {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+.s_item p {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+.s_2 {
+    float: right;
+    margin: 0;
+}
+/* feture end */
+/* sign start */
+.sign {
+    width: 100%;
+    height: 260px;
+    background-color: #f0f0f0;
+    text-align: center;
+    
+   
+   
+}
+.text {
+
+}
+.text a {
+    text-decoration: none;
+    
+}
+.text a h1 {
+    font-family: 'Playfair Display', serif;
+    padding: 50px 0 50px 0;
+    color: #333333;
+}
+.em_box {
+    margin: 0 auto;
+    width: 25%;
+    padding-bottom: 5px;
+    border-bottom: 0.01px solid black;
+}
+.in_1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    padding-right: 15px;
+    border-style: none;
+    background-color:#f0f0f0 ;
+}
+.sub {
+    color: black;
+    padding-left: 100px;
+}
+
+
+/* sign end */
+/* button start */
+.button {
+    text-align: center;
+    margin: 160px 0 160px 0;
+}
+.button button {
+    padding: 20px 30px 20px 30px;
+    text-transform: uppercase;
+}
+.button a {
+    text-decoration: none;
+}
+/* button end */
+/* footer start */
+footer {
+
+}
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #f0f0f0;
+}
+.term {
+    width: 40%;
+    float: left;
+    padding:15px 0px 15px 80px;
+    /* border: 1px solid blue; */
+}
+.term p {
+    font-family: 'Playfair Display', serif;
+}
+.term p a {
+    padding-left: 20px;
+    text-decoration: none;
+}
+.link {
+    width: 30%;
+    float: right;
+    /* border: 1px solid blue; */
+}
+.link ul {
+    float: right;
+}
+.link ul li {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    float: left;
+    list-style: none;
+}
+.link ul li a {
+    padding: 15px;
+    color: #626262;
+    display: inline-block;
+    text-decoration: none;
+}
+/* footer end */
