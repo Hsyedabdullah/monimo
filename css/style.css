@@ -239,6 +239,7 @@ footer {
     font-family: 'Playfair Display', serif;
 }
 .term p a {
+    color: #626262;
     padding-left: 20px;
     text-decoration: none;
 }
