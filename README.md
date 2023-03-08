@@ -1,2 +1,2 @@
 # monimo
-monimo project
+https://hsyedabdullah.github.io/monimo/
