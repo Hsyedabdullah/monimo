@@ -217,6 +217,7 @@ header {
     text-transform: uppercase;
 }
 .button a {
+    color: #626262;
     text-decoration: none;
 }
 /* button end */
